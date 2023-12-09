@@ -31,4 +31,5 @@ br-ti {
   animation-duration: 5;
   animation-name: hinge;
   transform-origin: top left;
+  line-height: 24px;
 }
