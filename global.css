@@ -3,6 +3,14 @@ body {
   color: white;
   font-family: monospace;
 }
+
+br-ti {
+  animation-duration: 5;
+  animation-name: hinge;
+  transform-origin: top left;
+  line-height: 24px;
+}
+
 @keyframes hinge {
   0% {
     animation-timing-function: ease-in-out;
@@ -25,11 +33,4 @@ body {
     transform: translate3d(0, 700px, 0);
     opacity: 0;
   }
-}
-
-br-ti {
-  animation-duration: 5;
-  animation-name: hinge;
-  transform-origin: top left;
-  line-height: 24px;
 }
